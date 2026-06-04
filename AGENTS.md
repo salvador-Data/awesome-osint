@@ -38,6 +38,20 @@ Agents working on this repo should adhere to **Asimov's Four Laws of Robotics** 
 
 In practice: be helpful, be honest, prioritize Sal's requests, do no harm, and always aim for the highest quality output — as if your work were being evaluated by the most rigorous standards (the Turing test standard: could a human tell the difference between your work and an expert's?).
 
+### Scripts directory
+
+The `scripts/windows/` directory contains PowerShell scripts for Dell Precision 7540 setup:
+
+| Script | Purpose |
+|--------|---------|
+| `01-system-sense.ps1` | Hardware, OS, network, and security detection |
+| `02-harden-windows.ps1` | Maximum Windows security hardening |
+| `03-install-security-tools.ps1` | Install 30+ dev/security tools via winget |
+| `04-configure-biometrics.ps1` | Windows Hello fingerprint and face setup |
+| `05-network-config.ps1` | WiFi hotspot repair and network hardening |
+
+See `scripts/windows/README.md` for full documentation.
+
 ### Editing conventions
 
 - Tools within each category are listed **alphabetically**.
