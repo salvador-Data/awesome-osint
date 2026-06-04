@@ -35,6 +35,16 @@ Please take a quick gander at the [contributing guidelines](https://github.com/t
 - [Vehicle & Property Lookup](#-vehicle--property-lookup)
 - [Threat Intelligence](#-threat-intelligence)
 - [OSINT Frameworks & Automation](#-osint-frameworks--automation)
+- [Data Breach & Credential Search](#-data-breach--credential-search)
+- [Flight & Maritime Tracking](#-flight--maritime-tracking)
+- [Business & Corporate Intel](#-business--corporate-intel)
+- [Browser Extensions for OSINT](#-browser-extensions-for-osint)
+- [Sock Puppet & Alias Management](#-sock-puppet--alias-management)
+- [Password & Hash Tools](#-password--hash-tools)
+- [Metadata & File Analysis](#-metadata--file-analysis)
+- [Search Engine Dorking](#-search-engine-dorking)
+- [Maps & Satellite Imagery (Advanced)](#-maps--satellite-imagery-advanced)
+- [Missing Persons Specific](#-missing-persons-specific)
 
 ---
 
@@ -43,13 +53,19 @@ Please take a quick gander at the [contributing guidelines](https://github.com/t
 *Tools for performing email searches via social media, breach info, and other sources.*
 
 - [Buster](https://github.com/sham00n/buster) – Advanced tool for email reconnaissance.
+- [EmailHippo](https://tools.emailhippo.com/) – Email address verification and validation service.
+- [EmailRep](https://emailrep.io/) – Query the reputation of an email address — reports on breaches, social profiles, and malicious activity.
 - [Epieos](https://epieos.com/) – Retrieve information linked to an email address (Google ID, social media, breaches).
+- [GHunt](https://github.com/mxrch/GHunt) – Investigate Google accounts using email addresses — finds name, photos, maps reviews, and more.
 - [Have I Been Pwned](https://haveibeenpwned.com/) – Check if an email address has been exposed in a data breach.
 - [Holehe](https://github.com/megadose/holehe) – Check if an email is registered on various sites (Twitter, Instagram, Imgur, etc.).
 - [Hunter.io](https://hunter.io/) – Find and verify professional email addresses associated with a domain.
 - [Infoga](https://github.com/m4ll0k/Infoga) – Email information gathering tool that finds email sources from search engines and PGP servers.
 - [LeakCheck](https://leakcheck.io/) – Search leaked databases by email, username, or phone number.
+- [Mailcat](https://github.com/sharsil/mailcat) – Find existing email addresses by nickname using provider-specific API and SMTP checks.
+- [Skymem](https://www.skymem.info/) – Search for email addresses associated with a domain or company.
 - [theHarvester](https://github.com/laramies/theHarvester) – Gather emails, subdomains, hosts, and employee names from public sources.
+- [Voila Norbert](https://www.voilanorbert.com/) – Find anyone's email address by name and company domain.
 
 ---
 
@@ -57,12 +73,16 @@ Please take a quick gander at the [contributing guidelines](https://github.com/t
 
 *Tools that perform searches over multiple sources (social media, domains, IPs, phone numbers, etc).*
 
+- [Hunchly](https://www.hunch.ly/) – Automatically captures and organizes web pages during investigations (commercial).
 - [Intelligence X](https://intelx.io/) – Search engine and data archive for OSINT across leaked data, domains, emails, and more.
+- [Lampyre](https://lampyre.io/) – Paid OSINT platform for data analysis with automated data gathering and link visualization.
 - [Maltego](https://www.maltego.com) – Provides a library of transforms for OSINT discovery and visualizes information in graph format for link analysis.
+- [Mitaka](https://github.com/ninoseki/mitaka) – Browser extension for OSINT search — look up IPs, domains, URLs, hashes from the right-click menu.
+- [OSINT Framework](https://osintframework.com/) – Web-based collection of OSINT tools organized by category for investigations.
 - [Recon-ng](https://github.com/lanmaster53/recon-ng) – Full-featured web reconnaissance framework with independent modules and database interaction.
 - [sn0int](https://github.com/kpcyrd/sn0int) – Semi-automatic OSINT framework and package manager for gathering intelligence.
 - [SpiderFoot](https://github.com/smicallef/spiderfoot) – Automates the collection of OSINT to find everything possible about a target.
-- [OSINT Framework](https://osintframework.com/) – Web-based collection of OSINT tools organized by category for investigations.
+- [Spyse](https://spyse.com/) – Internet assets search engine — find any organization's digital footprint across IPs, domains, and certificates.
 
 ---
 
@@ -84,11 +104,19 @@ Please take a quick gander at the [contributing guidelines](https://github.com/t
 *Tools for gathering OSINT from popular social media platforms.*
 
 - [Bellingcat TikTok Analysis Tool](https://github.com/bellingcat/tiktok-tool) – Scrape and analyze TikTok data for OSINT.
+- [Blackbird](https://github.com/p1ngul1n0/blackbird) – Search for social media accounts by username across 500+ platforms.
+- [Crowdfire](https://www.crowdfire.com/) – Track followers, unfollowers, and engagement across social media accounts.
+- [Export Comments](https://exportcomments.com/) – Export comments from social media posts (YouTube, Instagram, Facebook, TikTok, etc.).
+- [Gephi](https://gephi.org/) – Open-source network visualization tool for mapping social media connections and link analysis.
 - [Instaloader](https://instaloader.github.io/) – Download Instagram photos, videos, captions, and metadata.
 - [Osintgram](https://github.com/Datalux/Osintgram) – OSINT tool for Instagram that offers analysis of any public profile.
+- [Reddit Investigator](https://www.redditinvestigator.com/) – Analyze Reddit user activity, posting patterns, and interests.
 - [snscrape](https://github.com/JustAnotherArchiworst/snscrape) – Social network service scraper for Twitter, Facebook, Instagram, Reddit, and more.
 - [Social Analyzer](https://github.com/qeeqbox/social-analyzer) – Analyze and find profiles across 1000+ social media sites.
+- [Social Blade](https://socialblade.com/) – Track user statistics for YouTube, Twitch, Instagram, and Twitter.
+- [Telegram Analyzer](https://github.com/th3unkn0n/TeleGram-Scraper) – Scrape Telegram group members and message history.
 - [Twint](https://github.com/twintproject/twint) – Advanced Twitter scraping tool without using Twitter's API.
+- [YouTube Metadata](https://mattw.io/youtube-metadata/) – Extract metadata from YouTube videos including exact upload time and thumbnail URLs.
 
 ---
 
@@ -110,14 +138,22 @@ Please take a quick gander at the [contributing guidelines](https://github.com/t
 *Tools and services for finding information about individuals.*
 
 - [411.com](https://www.411.com/) – People search, reverse phone, and address lookup.
+- [Ancestry](https://www.ancestry.com/) – Genealogy research platform with billions of historical records (commercial).
 - [BeenVerified](https://www.beenverified.com/) – Background check and people search service (commercial).
+- [ClustrMaps](https://clustrmaps.com/) – Visualize website visitor locations — useful for identifying geographic interest patterns.
 - [FamilyTreeNow](https://www.familytreenow.com/) – Free genealogy and people search site with public records data.
 - [FastPeopleSearch](https://www.fastpeoplesearch.com/) – Free people search engine with address, phone, and email lookup.
+- [Lullar](https://com.lullar.com/) – Search for a person's profiles across social networks by name or email.
+- [Nuwber](https://nuwber.com/) – People search with addresses, phone numbers, emails, and social profiles.
+- [PeekYou](https://www.peekyou.com/) – People search engine that indexes social media, news, and web content.
 - [Pipl](https://pipl.com/) – Deep web people search engine that finds information not indexed by standard search engines (commercial).
+- [Skip Tracing Tool](https://www.skip-tracing.com/) – Locate missing persons using public records and database aggregation.
 - [Spokeo](https://www.spokeo.com/) – People search aggregator that pulls data from social networks, public records, and more (commercial).
 - [ThatsThem](https://thatsthem.com/) – Free people search with reverse phone, email, address, and IP lookups.
+- [USSearch](https://www.ussearch.com/) – Find people with background reports, criminal records, and contact info (commercial).
 - [WebMii](https://webmii.com/) – People search engine that computes an online visibility score.
 - [WhitePages](https://www.whitepages.com/) – Find people, phone numbers, addresses, and background checks.
+- [Zabasearch](https://www.zabasearch.com/) – Free people search for addresses and phone numbers across the U.S.
 
 ---
 
@@ -189,7 +225,10 @@ Please take a quick gander at the [contributing guidelines](https://github.com/t
 *Tools for wireless network mapping and signals intelligence.*
 
 - [Aircrack-ng](https://www.aircrack-ng.org/) – Network security toolset for auditing WiFi networks.
+- [Fing](https://www.fing.com/) – Network scanner that identifies all devices connected to a WiFi network.
 - [Kismet](https://www.kismetwireless.net/) – Wireless network and device detector, sniffer, and WIDS framework.
+- [Reaver](https://github.com/t6x/reaver-wps-fork-t6x) – WPS attack tool for recovering WiFi passwords.
+- [WiFi Pineapple](https://shop.hak5.org/products/wifi-pineapple) – Wireless auditing platform for man-in-the-middle and rogue AP testing (hardware).
 - [WiGLE](https://wigle.net/) – Wireless network mapping database.
 
 ---
@@ -224,7 +263,11 @@ Please take a quick gander at the [contributing guidelines](https://github.com/t
 
 - [Ahmia](https://ahmia.fi/) – Search engine for .onion sites on the Tor network.
 - [DarkSearch](https://darksearch.io/) – Dark web search engine with API access.
+- [Grep.app](https://grep.app/) – Search across half a million public Git repos — find leaked credentials and exposed code.
+- [Onion Search Engine](https://onionsearchengine.com/) – Search engine for Tor hidden services without needing the Tor browser.
 - [Paste Site Search (IntelligenceX)](https://intelx.io/) – Search across paste sites, dark web, and leaked data repositories.
+- [Pastebin](https://pastebin.com/) – Commonly used paste site — search for leaked data, credentials, and threat actor communications.
+- [Tails OS](https://tails.net/) – Privacy-focused live operating system that routes all traffic through Tor — essential for dark web research.
 - [Tor Browser](https://www.torproject.org/) – Browser for accessing .onion sites on the dark web.
 
 ---
@@ -256,11 +299,17 @@ Please take a quick gander at the [contributing guidelines](https://github.com/t
 
 *Platforms for tracking threat actors, malware, and indicators of compromise.*
 
-- [AlienVault OTX](https://otx.alienvault.com/) – Open threat exchange platform for sharing and researching threat intelligence.
 - [Abuse.ch](https://abuse.ch/) – Community-driven threat intelligence on malware and botnets (URLhaus, MalwareBazaar, ThreatFox).
+- [AbuseIPDB](https://www.abuseipdb.com/) – IP address blacklist and abuse reporting service — check if an IP has been reported for malicious activity.
+- [AlienVault OTX](https://otx.alienvault.com/) – Open threat exchange platform for sharing and researching threat intelligence.
+- [ANY.RUN](https://any.run/) – Interactive malware analysis sandbox — submit and observe suspicious files in a live environment.
+- [Hybrid Analysis](https://www.hybrid-analysis.com/) – Free malware analysis service using CrowdStrike Falcon Sandbox.
+- [Joe Sandbox](https://www.joesandbox.com/) – Deep malware analysis with behavior reports across Windows, macOS, Linux, Android, and iOS.
+- [MISP](https://www.misp-project.org/) – Open-source threat intelligence sharing platform for collecting, storing, and distributing IOCs.
 - [MITRE ATT&CK](https://attack.mitre.org/) – Knowledge base of adversary tactics and techniques based on real-world observations.
 - [Pulsedive](https://pulsedive.com/) – Free threat intelligence platform for searching IOCs and enriching threat data.
 - [ThreatCrowd](https://www.threatcrowd.org/) – Search engine for threats — find related domains, IPs, emails, and malware samples.
+- [ThreatMiner](https://www.threatminer.org/) – Data mining portal for threat intelligence — search domains, IPs, hashes, and APT reports.
 
 ---
 
@@ -269,7 +318,148 @@ Please take a quick gander at the [contributing guidelines](https://github.com/t
 *Comprehensive frameworks and platforms for automating OSINT workflows.*
 
 - [Datasploit](https://github.com/DataSploit/datasploit) – OSINT framework that performs automated recon on domains, emails, usernames, and phones.
+- [iKy](https://github.com/kennbroorg/iKy) – Collect information from an email and display it in a visual dashboard.
+- [Metagoofil](https://github.com/laramies/metagoofil) – Extract metadata from public documents (PDF, DOC, XLS) belonging to a target domain.
 - [OSINT Combine](https://www.osintcombine.com/) – Platform with free OSINT tools, training, and resources for investigators.
 - [Photon](https://github.com/s0md3v/Photon) – Fast web crawler designed for OSINT that extracts URLs, emails, social media accounts, and files.
 - [Raccoon](https://github.com/evyatarmeged/Raccoon) – Offensive security tool for reconnaissance and information gathering.
+- [Skiptracer](https://github.com/xillwillx/skiptracer) – OSINT scraping framework that utilizes PII payloads for skip tracing and people search.
 - [Twint](https://github.com/twintproject/twint) – Advanced Twitter scraping tool that works without API access.
+
+---
+
+## 🔐 Data Breach & Credential Search
+
+*Tools for searching leaked credentials and data breaches.*
+
+- [Breach Directory](https://breachdirectory.org/) – Search leaked databases by email, username, or phone for exposed passwords.
+- [Dehashed](https://dehashed.com/) – Search engine for compromised credentials — search by email, username, IP, name, or phone (commercial).
+- [GhostProject](https://ghostproject.fr/) – Search 1.4 billion+ credentials from data breaches.
+- [Have I Been Pwned](https://haveibeenpwned.com/) – The standard for checking email exposure in known data breaches.
+- [Leak-Lookup](https://leak-lookup.com/) – Search engine for data breaches with API access (commercial).
+- [LeakPeek](https://leakpeek.com/) – Fast credential search across multiple data breach databases.
+- [Snusbase](https://snusbase.com/) – Search leaked databases by email, username, name, IP, phone, or password hash (commercial).
+
+---
+
+## ✈️ Flight & Maritime Tracking
+
+*Tools for tracking aircraft, ships, and transportation assets.*
+
+- [ADS-B Exchange](https://www.adsbexchange.com/) – Unfiltered, community-fed flight tracking — no censorship of military or government aircraft.
+- [FlightAware](https://www.flightaware.com/) – Real-time and historical flight tracking with aircraft owner data.
+- [FlightRadar24](https://www.flightradar24.com/) – Real-time flight tracker with aircraft type, route, and registration details.
+- [MarineTraffic](https://www.marinetraffic.com/) – Real-time ship tracking using AIS data with vessel details and port information.
+- [OpenSky Network](https://opensky-network.org/) – Open-access air traffic surveillance data from a global network of receivers.
+- [Ship Finder](https://shipfinder.co/) – Real-time ship tracking and vessel position data.
+- [VesselFinder](https://www.vesselfinder.com/) – Free AIS vessel tracking with ship details, port calls, and voyage history.
+
+---
+
+## 🏢 Business & Corporate Intel
+
+*Tools for investigating companies, officers, and corporate structures.*
+
+- [Crunchbase](https://www.crunchbase.com/) – Business information platform with funding, leadership, and company profile data.
+- [EDGAR (SEC)](https://www.sec.gov/edgar/searchedgar/companysearch) – Search SEC filings for public company financials, ownership, and insider trades.
+- [ICIJ Offshore Leaks](https://offshoreleaks.icij.org/) – Search Panama Papers, Paradise Papers, and other offshore financial leak databases.
+- [LinkedIn](https://www.linkedin.com/) – Professional network for identifying employees, roles, and corporate connections.
+- [OpenCorporates](https://opencorporates.com/) – Largest open database of companies in the world — search corporate registrations globally.
+- [Orbis (Bureau van Dijk)](https://www.bvdinfo.com/en-gb/our-products/data/international/orbis) – Global database of company information with ownership structures (commercial).
+- [OSINT Industries](https://www.osint.industries/) – Investigate people and businesses using email, phone, or name with automated enrichment (commercial).
+- [Wayback Machine (Business)](https://archive.org/web/) – View historical snapshots of company websites to track changes over time.
+
+---
+
+## 🧩 Browser Extensions for OSINT
+
+*Browser add-ons that enhance OSINT workflows.*
+
+- [BuiltWith](https://chromewebstore.google.com/detail/builtwith-technology-prof/dapjbgnjinbpoindlpdmhochdflfnkol) – Identify web technologies used by any site you visit.
+- [Distill Web Monitor](https://distill.io/) – Monitor web pages for changes and get alerts — useful for tracking target pages.
+- [Exif Viewer Pro](https://chromewebstore.google.com/detail/exif-viewer-pro/mmbhfeiddhndihdjeganjggkmjapkamo) – View EXIF data of images directly in the browser.
+- [Fake Profile Detector](https://chromewebstore.google.com/detail/fake-profile-detector-dee/jbpcgcnnhmjmajjkgdaogpgefbnokpcc) – Detect AI-generated profile pictures on social media.
+- [Forensic OSINT Full Page Screen Capture](https://chromewebstore.google.com/detail/forensic-osint-full-page/jojaomahhndmeienhjihojidkddkahcn) – Capture full web pages with forensic-grade screenshots and video.
+- [Hunter Extension](https://chromewebstore.google.com/detail/hunter-email-finder-exte/hgmhmanijnjhaffoampdlllchpolkdnj) – Find email addresses associated with the website you're visiting.
+- [Instant Data Scraper](https://chromewebstore.google.com/detail/instant-data-scraper/ofaokhiedipichpaobibbnahnkdoiiah) – AI-powered data scraper that extracts structured data from any web page.
+- [Wappalyzer](https://www.wappalyzer.com/) – Identify technologies, CMS, frameworks, and analytics on any website.
+
+---
+
+## 🎭 Sock Puppet & Alias Management
+
+*Tools and resources for creating and managing investigation aliases.*
+
+- [Fake Name Generator](https://www.fakenamegenerator.com/) – Generate complete fake identities for sock puppet accounts.
+- [Guerrilla Mail](https://www.guerrillamail.com/) – Disposable email addresses for creating accounts without revealing your real email.
+- [ProtonMail](https://proton.me/mail) – Encrypted email service useful for maintaining anonymous investigation accounts.
+- [SimpleLogin](https://simplelogin.io/) – Email alias service to create unlimited aliases that forward to your real inbox.
+- [This Person Does Not Exist](https://thispersondoesnotexist.com/) – AI-generated face photos for sock puppet profile pictures.
+- [Temp-Mail](https://temp-mail.org/) – Temporary disposable email for one-time account creation.
+
+---
+
+## 🔑 Password & Hash Tools
+
+*Tools for analyzing passwords, hashes, and authentication security.*
+
+- [CrackStation](https://crackstation.net/) – Free online hash cracker using massive pre-computed lookup tables.
+- [CyberChef](https://gchq.github.io/CyberChef/) – Web-based tool for encoding, decoding, encryption, hashing, and data analysis.
+- [Hashcat](https://hashcat.net/hashcat/) – Advanced password recovery tool supporting 300+ hash types with GPU acceleration.
+- [Hashes.org](https://hashes.org/) – Community-driven hash cracking service and hash lookup database.
+- [John the Ripper](https://www.openwall.com/john/) – Open-source password cracking tool supporting many hash types and cipher formats.
+
+---
+
+## 📄 Metadata & File Analysis
+
+*Tools for extracting and analyzing metadata from documents and files.*
+
+- [CyberChef](https://gchq.github.io/CyberChef/) – Swiss army knife for data — decode, decompress, and analyze file content in the browser.
+- [ExifTool](https://exiftool.org/) – Industry standard for reading, writing, and editing metadata in images, audio, video, and documents.
+- [FOCA](https://github.com/ElevenPaths/FOCA) – Tool for finding metadata and hidden information in documents (Office, PDF, SVG).
+- [mat2](https://0xacab.org/jfriedli/mat2) – Metadata removal tool for cleaning sensitive information from files before publishing.
+- [Metagoofil](https://github.com/laramies/metagoofil) – Extract metadata from public documents on a target domain using Google dorking.
+- [PDF Examiner](https://www.pdfexaminer.com/) – Analyze PDF files for malicious content, JavaScript, and embedded objects.
+
+---
+
+## 🔎 Search Engine Dorking
+
+*Tools and references for advanced search engine queries.*
+
+- [DorkSearch](https://dorksearch.com/) – Pre-built Google dork query builder for finding exposed files, directories, and data.
+- [Google Advanced Search](https://www.google.com/advanced_search) – Built-in advanced query interface for precise Google searches.
+- [Google Hacking Database (GHDB)](https://www.exploit-db.com/google-hacking-database) – Archive of Google dorks for finding vulnerable servers, exposed data, and sensitive files.
+- [Pagodo](https://github.com/opsdisk/pagodo) – Automate Google dorking by running queries from the GHDB against targets.
+- [SearchDiggity](https://resources.bishopfox.com/resources/tools/google-hacking-diggity/attack-tools/) – Suite of tools for automating search engine dorking (Google, Bing, Shodan).
+
+---
+
+## 🛰️ Maps & Satellite Imagery (Advanced)
+
+*Advanced geospatial intelligence and satellite imagery tools.*
+
+- [Copernicus Open Access Hub](https://scihub.copernicus.eu/) – Free access to Sentinel satellite imagery from the European Space Agency.
+- [EOS Land Viewer](https://eos.com/landviewer/) – Search and analyze satellite imagery with temporal comparison features.
+- [F4map](https://demo.f4map.com/) – 3D interactive map useful for understanding terrain and building layouts.
+- [Google Earth Pro](https://www.google.com/earth/versions/) – Free desktop version with measurement tools, historical imagery, and GIS data import.
+- [NASA Worldview](https://worldview.earthdata.nasa.gov/) – Real-time and near-real-time satellite imagery of the Earth from NASA.
+- [Sentinel Hub](https://www.sentinel-hub.com/) – Cloud API for satellite imagery — Sentinel, Landsat, and commercial data.
+- [Zoom Earth](https://zoom.earth/) – Daily satellite imagery with weather layers and historical timeline.
+
+---
+
+## 🆘 Missing Persons Specific
+
+*Resources and platforms specifically designed for missing persons investigations.*
+
+- [CSER (Center for Search and Rescue)](https://www.nasar.org/) – National Association for Search and Rescue — training and resources.
+- [Global Missing Children Network](https://www.globalmissingkids.org/) – International collaboration for locating missing children worldwide.
+- [Innocence Project](https://innocenceproject.org/) – Uses DNA and investigation to exonerate wrongfully convicted — relevant case research.
+- [Missing Kids (NCMEC)](https://www.missingkids.org/) – National Center for Missing & Exploited Children — report tips and search cases.
+- [NamUs](https://namus.nij.ojp.gov/) – National Missing and Unidentified Persons System — U.S. DOJ database of missing persons and unidentified remains.
+- [The Charley Project](https://charleyproject.org/) – Database of cold case missing persons in the U.S.
+- [The Doe Network](https://www.doenetwork.org/) – Volunteer organization for unidentified and missing persons internationally.
+- [TraceLabs](https://tracelabs.org/) – Crowdsourced OSINT for missing persons — hosts CTF events and provides training.
+- [Websleuths](https://www.websleuths.com/) – Community forum for discussing missing persons cases and cold cases.
