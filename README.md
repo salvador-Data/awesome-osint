@@ -45,6 +45,9 @@ Please take a quick gander at the [contributing guidelines](https://github.com/t
 - [Search Engine Dorking](#-search-engine-dorking)
 - [Maps & Satellite Imagery (Advanced)](#-maps--satellite-imagery-advanced)
 - [Missing Persons Specific](#-missing-persons-specific)
+- [Academic & Research-Grade Tools](#-academic--research-grade-tools)
+- [AI-Powered OSINT Platforms](#-ai-powered-osint-platforms)
+- [OSINT Training & Methodology](#-osint-training--methodology)
 
 ---
 
@@ -463,3 +466,49 @@ Please take a quick gander at the [contributing guidelines](https://github.com/t
 - [The Doe Network](https://www.doenetwork.org/) – Volunteer organization for unidentified and missing persons internationally.
 - [TraceLabs](https://tracelabs.org/) – Crowdsourced OSINT for missing persons — hosts CTF events and provides training.
 - [Websleuths](https://www.websleuths.com/) – Community forum for discussing missing persons cases and cold cases.
+
+---
+
+## 🎓 Academic & Research-Grade Tools
+
+*Tools and frameworks from universities and research institutions.*
+
+- [Berkeley Protocol on Digital Open Source Investigations](https://www.ohchr.org/en/publications/policy-and-methodological-publications/berkeley-protocol-digital-open-source) – UC Berkeley Human Rights Center methodology for conducting OSINT investigations to court-admissible standards.
+- [CERT Kaiju](https://github.com/cmu-sei/kaiju) – Carnegie Mellon SEI binary analysis framework extending the Ghidra reverse engineering suite for malware analysis.
+- [CTINexus](https://github.com/peng-gao-lab/CTINexus) – Virginia Tech / UC Berkeley framework using LLMs to extract cyber threat intelligence and construct knowledge graphs (published at Euro S&P 2025).
+- [GHOSTS](https://github.com/cmu-sei/GHOSTS) – Carnegie Mellon SEI realistic user simulation framework for cyber experimentation and training exercises.
+- [OpenCTI](https://github.com/OpenCTI-Platform/opencti) – Open-source threat intelligence platform for structuring, storing, and visualizing CTI data with STIX 2.1 support.
+- [OSI Lab (University at Albany)](https://www.albany.edu/cehc/osi-lab) – Open Source Intelligence Laboratory conducting research on OSINT methodologies using i2 Analyst's Notebook and Maltego.
+- [SCALe](https://github.com/cmu-sei/SCALe) – Carnegie Mellon SEI Source Code Analysis Laboratory — aggregates static analysis results from multiple tools into one auditing interface.
+- [SecurityKG](https://arxiv.org/abs/2101.07769) – UC Berkeley / Microsoft automated OSCTI system that builds security knowledge graphs from 40+ threat intelligence sources.
+- [SiLK](https://tools.netsa.cert.org/silk/) – Carnegie Mellon CERT network traffic analysis tool suite for large-scale flow data analysis.
+- [Vibe Security Radar](https://github.com/HQ1995/vibe-security-radar) – Georgia Tech SSLab tool tracking real CVEs introduced by AI-generated code across open source projects.
+
+---
+
+## 🤖 AI-Powered OSINT Platforms
+
+*Next-generation OSINT platforms using AI agents, knowledge graphs, and automated analysis.*
+
+- [Crimewall by Social Links](https://sociallinks.io/) – Investigation platform that collects data from 500+ open sources including social media, blockchains, and dark web (commercial).
+- [Digital War Room](https://github.com/lina767/digital-war-room) – AI-native OSINT project using 11+ specialized agents supervised by Claude to monitor geopolitical conflicts with escalation scoring.
+- [Fusion Center (Project Overwatch)](https://github.com/Draichi/fusion-center) – MCP-based OSINT platform with LangGraph AI agent for autonomous geopolitical intelligence analysis.
+- [iKy](https://github.com/kennbroorg/iKy) – Collect information from an email and display results in a visual dashboard with network graphs.
+- [OSIA Framework](https://github.com/osianet/osia-framework) – Event-driven multi-agent intelligence framework modeling a real intelligence agency with specialized AI desks.
+- [OSINT360-GPT](https://github.com/oryon-osint/OSINT360-GPT) – AI assistant for OSINT, DFIR, ethical hacking, and red teaming aligned with MITRE ATT&CK and NIST frameworks.
+- [Summit](https://github.com/BrianCLong/summit) – Agentic AI OSINT platform with knowledge graphs, GraphRAG, and real-time data ingestion (MIT License).
+
+---
+
+## 📚 OSINT Training & Methodology
+
+*Training platforms, courses, and methodological frameworks for OSINT practitioners.*
+
+- [Bellingcat Online Investigation Toolkit](https://bellingcat.gitbook.io/toolkit) – Collaborative toolkit with in-depth tool reviews, designed during a Harvard Nieman-Berkman Klein Fellowship.
+- [Bellingcat Research Notebooks](https://github.com/bellingcat/open-source-research-notebooks) – Jupyter notebooks teaching OSINT techniques for researchers, journalists, and fact-checkers.
+- [GLAN/Bellingcat Evidence Methodology](https://j-and-a.glanlaw.org/methodology) – Court-admissible evidence collection methodology developed with Global Legal Action Network.
+- [MITRE ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/) – Interactive tool for annotating and exploring ATT&CK matrices during threat analysis.
+- [OSINT Dojo](https://www.osintdojo.com/) – Free training resources and investigation scenarios for building OSINT skills.
+- [SANS OSINT Resources](https://www.sans.org/blog/list-of-resource-links-for-open-source-intelligence/) – Curated list of OSINT resources maintained by SANS Institute.
+- [Sector035 Week in OSINT](https://sector035.nl/) – Weekly newsletter covering new tools, techniques, and articles in the OSINT community.
+- [TraceLabs OSINT CTF](https://tracelabs.org/) – Capture-the-flag events focused on finding real missing persons using OSINT techniques.
