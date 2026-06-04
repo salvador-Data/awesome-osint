@@ -2,16 +2,31 @@
 
 ## Cursor Cloud specific instructions
 
-This is a **documentation-only repository** — a curated "awesome list" of OSINT tools for missing-persons investigations. It contains only Markdown files (`README.md`, `CONTRIBUTING.md`, `.github/PULL_REQUEST_TEMPLATE.md`, `LICENSE`, `MAINTAINERS`). There is no application code, no build system, no services, and no runtime dependencies.
+This is a **documentation-only repository** — a comprehensive curated list of 320+ OSINT, cybersecurity, and ethical hacking tools across 36 categories. It is maintained by Hacker Planet LLC and endorsed by TraceLabs. There is no application code, no build system, no services, and no runtime dependencies.
+
+### Repository structure
+
+- `README.md` — The main tools list (320+ tools, 36 categories, ~590 lines).
+- `CONTRIBUTING.md` — Contribution guidelines (alphabetical ordering, descriptions, quality standards).
+- `.github/PULL_REQUEST_TEMPLATE.md` — PR template.
+- `LICENSE` — Mozilla Public License 2.0.
+- `MAINTAINERS` — List of maintainers.
+
+### Categories overview
+
+The README covers: Email Search, Multi Search, Username Search, Social Media, Phone Numbers, People Search, Images & Video Analysis, Documentation & Capture, Geolocation & Mapping, Domain/IP/Infrastructure, Wireless, Translation, Public Records & Court Data, Dark Web & Paste Sites, Cryptocurrency & Blockchain, Vehicle & Property Lookup, Threat Intelligence, OSINT Frameworks & Automation, Data Breach & Credential Search, Flight & Maritime Tracking, Business & Corporate Intel, Browser Extensions for OSINT, Sock Puppet & Alias Management, Password & Hash Tools, Metadata & File Analysis, Search Engine Dorking, Maps & Satellite Imagery (Advanced), Missing Persons Specific, Academic & Research-Grade Tools, AI-Powered OSINT Platforms, OSINT Training & Methodology, White Hat Penetration Testing, Vulnerability Scanning & Assessment, Network Reconnaissance, Social Engineering Tools, and Security Distributions.
 
 ### Linting
 
 - **Markdown lint**: `markdownlint README.md CONTRIBUTING.md .github/PULL_REQUEST_TEMPLATE.md`
   - `markdownlint-cli` is installed globally via npm in the update script.
-  - The existing files have ~80 pre-existing lint warnings (line length, inline HTML, etc.) that are part of the upstream content — do not attempt to fix these unless explicitly asked.
+  - Most lint warnings are line-length (MD013) on URL lines — expected for a links list. Do not attempt to fix these unless explicitly asked.
 
-### Contribution workflow
+### Editing conventions
 
-- See `CONTRIBUTING.md` for contribution guidelines (alphabetical ordering, descriptions, quality standards).
+- Tools within each category are listed **alphabetically**.
+- Each entry follows the format: `- [Tool Name](URL) – Description ending with a period.`
+- New categories require at least 3 tools.
+- When adding tools, check for duplicates across categories — some tools appear in multiple sections where relevant.
+- See `CONTRIBUTING.md` for full quality standards.
 - PR template is at `.github/PULL_REQUEST_TEMPLATE.md`.
-- Edits are limited to Markdown content; there is nothing to build or deploy.
