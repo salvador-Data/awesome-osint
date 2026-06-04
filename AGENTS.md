@@ -22,6 +22,11 @@ The README covers: Email Search, Multi Search, Username Search, Social Media, Ph
   - `markdownlint-cli` is installed globally via npm in the update script.
   - Most lint warnings are line-length (MD013) on URL lines — expected for a links list. Do not attempt to fix these unless explicitly asked.
 
+### User conventions
+
+- When Sal says **"memory update"** he means **update `AGENTS.md`** with whatever was just discussed or changed.
+- Always update `AGENTS.md` when making structural changes to the repo.
+
 ### Editing conventions
 
 - Tools within each category are listed **alphabetically**.
