@@ -48,6 +48,11 @@ Please take a quick gander at the [contributing guidelines](https://github.com/t
 - [Academic & Research-Grade Tools](#-academic--research-grade-tools)
 - [AI-Powered OSINT Platforms](#-ai-powered-osint-platforms)
 - [OSINT Training & Methodology](#-osint-training--methodology)
+- [White Hat Penetration Testing](#-white-hat-penetration-testing)
+- [Vulnerability Scanning & Assessment](#-vulnerability-scanning--assessment)
+- [Network Reconnaissance](#-network-reconnaissance)
+- [Social Engineering Tools](#-social-engineering-tools)
+- [Security Distributions](#-security-distributions)
 
 ---
 
@@ -512,3 +517,75 @@ Please take a quick gander at the [contributing guidelines](https://github.com/t
 - [SANS OSINT Resources](https://www.sans.org/blog/list-of-resource-links-for-open-source-intelligence/) – Curated list of OSINT resources maintained by SANS Institute.
 - [Sector035 Week in OSINT](https://sector035.nl/) – Weekly newsletter covering new tools, techniques, and articles in the OSINT community.
 - [TraceLabs OSINT CTF](https://tracelabs.org/) – Capture-the-flag events focused on finding real missing persons using OSINT techniques.
+
+---
+
+## 🏴‍☠️ White Hat Penetration Testing
+
+*Open-source tools created by or inspired by the world's top ethical hackers and security researchers.*
+
+- [BloodHound](https://github.com/SpecterOps/bloodhound) – Created by Andy Robbins (@_wald0), Rohan Vazarkar (@CptJesus), and Will Schroeder (@harmj0y). Maps privilege relationships in Active Directory and Azure using graph theory.
+- [Burp Suite Community](https://portswigger.net/burp/communitydownload) – Created by Dafydd Stuttard (PortSwigger). Industry-standard web application security testing platform.
+- [Cobalt Strike](https://www.cobaltstrike.com/) – Created by Raphael Mudge. Adversary simulation and red team operations tool (commercial, widely used by ethical red teams).
+- [Empire](https://github.com/BC-SECURITY/Empire) – Post-exploitation framework using PowerShell and Python agents for red team operations (maintained by BC Security).
+- [Impacket](https://github.com/fortra/impacket) – Collection of Python classes for working with network protocols — essential toolkit for Active Directory pentesting.
+- [Metasploit Framework](https://github.com/rapid7/metasploit-framework) – Created by HD Moore. The world's most widely used open-source penetration testing framework (38K+ GitHub stars).
+- [Mimikatz](https://github.com/gentilkiwi/mimikatz) – Created by Benjamin Delpy (@gentilkiwi). Extracts Windows credentials from memory — foundational tool for AD security testing.
+- [PentAGI](https://github.com/vxcontrol/pentagi) – Fully autonomous AI-powered penetration testing platform orchestrating 200+ security tools in isolated Docker environments.
+- [Responder](https://github.com/lgandx/Responder) – Created by Laurent Gaffié. LLMNR/NBT-NS/mDNS poisoner for capturing credentials on local networks.
+- [Rubeus](https://github.com/GhostPack/Rubeus) – Created by Will Schroeder (@harmj0y). Kerberos attack toolkit for Active Directory security assessments.
+- [SQLMap](https://github.com/sqlmapproject/sqlmap) – Automatic SQL injection detection and exploitation tool — the standard for database security testing.
+
+---
+
+## 🔍 Vulnerability Scanning & Assessment
+
+*Tools for discovering and assessing vulnerabilities in applications and infrastructure.*
+
+- [Acunetix](https://www.acunetix.com/) – Web vulnerability scanner with advanced crawling and AcuSensor technology (commercial).
+- [Nikto](https://github.com/sullo/nikto) – Open-source web server scanner that detects outdated software, misconfigurations, and dangerous files.
+- [Nuclei](https://github.com/projectdiscovery/nuclei) – Fast, community-driven vulnerability scanner using YAML templates (29K+ GitHub stars, used by Fortune 500 companies).
+- [OpenVAS](https://www.openvas.org/) – Full-featured open-source vulnerability assessment system maintained by Greenbone Networks.
+- [OWASP ZAP](https://www.zaproxy.org/) – Open-source web application security scanner from the OWASP Foundation — free alternative to Burp Suite.
+- [Trivy](https://github.com/aquasecurity/trivy) – Comprehensive security scanner for containers, filesystems, repos, and cloud infrastructure (by Aqua Security).
+- [WPScan](https://github.com/wpscanteam/wpscan) – WordPress security scanner that detects vulnerable plugins, themes, and misconfigurations.
+
+---
+
+## 🌐 Network Reconnaissance
+
+*Tools for network discovery, port scanning, and infrastructure mapping.*
+
+- [Amass](https://github.com/owasp-amass/amass) – OWASP project for network mapping and external asset discovery via DNS enumeration and web scraping.
+- [Masscan](https://github.com/robertdavidgraham/masscan) – Created by Robert David Graham. Internet-scale port scanner that can scan the entire internet in under 6 minutes.
+- [Nmap](https://nmap.org/) – Created by Gordon "Fyodor" Lyon. The gold standard network scanner for host discovery, port scanning, and service detection.
+- [Raccoon](https://github.com/evyatarmeged/Raccoon) – High-performance offensive security tool for reconnaissance and information gathering.
+- [runZero](https://www.runzero.com/) – Created by HD Moore (Metasploit creator). Network discovery and asset inventory platform.
+- [Subfinder](https://github.com/projectdiscovery/subfinder) – Fast passive subdomain discovery tool by ProjectDiscovery.
+- [TruffleHog](https://github.com/trufflesecurity/trufflehog) – Finds leaked credentials and secrets in Git repos, S3 buckets, filesystems, and more.
+- [Wireshark](https://www.wireshark.org/) – The world's most popular network protocol analyzer for deep traffic inspection and troubleshooting.
+
+---
+
+## 🎣 Social Engineering Tools
+
+*Tools for simulating and testing social engineering attacks (authorized use only).*
+
+- [BeEF](https://beefproject.com/) – Browser Exploitation Framework for assessing the security posture of web browsers through client-side attacks.
+- [Gophish](https://getgophish.com/) – Open-source phishing simulation framework for training and testing organizational security awareness.
+- [King Phisher](https://github.com/securestate/king-phisher) – Phishing campaign toolkit for simulating real-world attacks with tracking and reporting.
+- [SET (Social-Engineer Toolkit)](https://github.com/trustedsec/social-engineer-toolkit) – Created by Dave Kennedy (TrustedSec). Framework for simulating social engineering attacks including phishing, credential harvesting, and payload delivery.
+
+---
+
+## 💻 Security Distributions
+
+*Specialized Linux distributions pre-loaded with security and OSINT tools.*
+
+- [BlackArch Linux](https://blackarch.org/) – Arch-based penetration testing distribution with 2800+ tools.
+- [CSI Linux](https://csilinux.com/) – Linux distribution specifically designed for cyber investigations, OSINT, and digital forensics.
+- [Kali Linux](https://www.kali.org/) – The industry standard penetration testing distribution maintained by OffSec, pre-loaded with 600+ security tools.
+- [Kalitelligence](https://github.com/Masriyan/Kalitellingence) – Transforms Kali Linux into a threat intelligence and OSINT workstation with automated tool installation and parallel processing.
+- [Parrot Security OS](https://www.parrotsec.org/) – Security-focused Linux distribution with tools for pentesting, forensics, and privacy.
+- [Tails](https://tails.net/) – Privacy-focused live OS that routes all traffic through Tor — essential for anonymous OSINT research.
+- [Whonix](https://www.whonix.org/) – Desktop OS designed for advanced security and privacy, runs inside VMs with Tor-only networking.
